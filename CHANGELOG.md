@@ -1,3 +1,99 @@
+Release v1.54.20 (2024-07-18)
+===
+
+### Service Client Updates
+* `service/acm-pca`: Updates service waiters
+* `service/connect`: Updates service API, documentation, and paginators
+* `service/ec2`: Updates service API and documentation
+  * Amazon VPC IP Address Manager (IPAM) now supports Bring-Your-Own-IP (BYOIP) for IP addresses registered with any Internet Registry. This feature uses DNS TXT records to validate ownership of a public IP address range.
+* `service/firehose`: Updates service API and documentation
+  * This release 1) Add configurable buffering hints for Snowflake as destination. 2) Add ReadFromTimestamp for MSK As Source. Firehose will start reading data from MSK Cluster using offset associated with this timestamp. 3) Gated public beta release to add Apache Iceberg tables as destination.
+* `service/ivschat`: Updates service API, documentation, and waiters
+* `service/medialive`: Updates service API and documentation
+  * AWS Elemental MediaLive now supports the SRT protocol via the new SRT Caller input type.
+* `service/rds`: Updates service API, documentation, waiters, paginators, and examples
+  * Updates Amazon RDS documentation to specify an eventual consistency model for DescribePendingMaintenanceActions.
+* `service/sagemaker`: Updates service API
+  * SageMaker Training supports R5, T3 and R5D instances family. And SageMaker Processing supports G5 and R5D instances family.
+* `service/secretsmanager`: Updates service documentation
+  * Doc only update for Secrets Manager
+* `service/taxsettings`: Updates service API
+* `service/timestream-query`: Updates service API and documentation
+* `service/workspaces-thin-client`: Updates service API and documentation
+
+Release v1.54.19 (2024-07-12)
+===
+
+### Service Client Updates
+* `service/acm-pca`: Updates service API, documentation, waiters, and paginators
+* `service/arc-zonal-shift`: Updates service API and documentation
+* `service/autoscaling`: Adds new service
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/codebuild`: Adds new service
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/dynamodb`: Updates service API, documentation, waiters, paginators, and examples
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/globalaccelerator`: Updates service API
+* `service/pinpoint`: Updates service API and documentation
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/quicksight`: Updates service API and documentation
+  * Vega ally control options and Support for Reviewed Answers in Topics
+* `service/rds`: Updates service API, documentation, waiters, paginators, and examples
+  * Update path for CreateDBCluster resource identifier, and Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/sns`: Adds new service
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+
+Release v1.54.18 (2024-07-10)
+===
+
+### Service Client Updates
+* `service/batch`: Updates service API and documentation
+  * This feature allows AWS Batch Jobs with EKS container orchestration type to be run as Multi-Node Parallel Jobs.
+* `service/bedrock`: Updates service API and documentation
+* `service/bedrock-agent`: Updates service API, documentation, and paginators
+* `service/bedrock-agent-runtime`: Updates service API, documentation, and paginators
+* `service/bedrock-runtime`: Updates service API and documentation
+* `service/ec2`: Updates service API and documentation
+  * Add parameters to enable provisioning IPAM BYOIPv4 space at a Local Zone Network Border Group level
+* `service/glue`: Updates service API and documentation
+  * Add recipe step support for recipe node
+* `service/groundstation`: Updates service API and documentation
+* `service/license-manager-linux-subscriptions`: Updates service API, documentation, and paginators
+* `service/mediaconnect`: Updates service API and documentation
+
+Release v1.54.17 (2024-07-09)
+===
+
+### Service Client Updates
+* `service/datazone`: Updates service API
+* `service/fsx`: Updates service API and documentation
+* `service/opensearch`: Updates service API and documentation
+* `service/sagemaker`: Updates service API, documentation, and paginators
+  * This release 1/ enables optimization jobs that allows customers to perform Ahead-of-time compilation and quantization. 2/ allows customers to control access to Amazon Q integration in SageMaker Studio. 3/ enables AdditionalModelDataSources for CreateModel action.
+
+Release v1.54.16 (2024-07-08)
+===
+
+### Service Client Updates
+* `service/codedeploy`: Updates service API
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/devicefarm`: Updates service API
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/dms`: Updates service API
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/elasticbeanstalk`: Updates service API
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/email`: Updates service API
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/es`: Updates service API
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/firehose`: Updates service API
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/gamelift`: Updates service API
+  * Add v2 smoke tests and smithy smokeTests trait for SDK testing.
+* `service/qapps`: Updates service API, documentation, waiters, paginators, and examples
+* `service/route53resolver`: Updates service API
+
 Release v1.54.15 (2024-07-05)
 ===
 
