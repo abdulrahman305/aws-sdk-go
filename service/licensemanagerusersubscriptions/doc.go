@@ -26,4 +26,7 @@
 // See the AWS License Manager User Subscriptions client LicenseManagerUserSubscriptions for more
 // information on creating client for this service.
 // https://docs.aws.amazon.com/sdk-for-go/api/service/licensemanagerusersubscriptions/#New
+//
+// Deprecated: aws-sdk-go is deprecated. Use aws-sdk-go-v2.
+// See https://aws.amazon.com/blogs/developer/announcing-end-of-support-for-aws-sdk-for-go-v1-on-july-31-2025/.
 package licensemanagerusersubscriptions
