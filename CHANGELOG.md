@@ -1,3 +1,10 @@
+# Release v1.55.8 (2025-07-31)
+
+### SDK Features
+
+* Mark the module and all packages as deprecated.
+  * This SDK has entered end-of-support.
+
 Release v1.55.7 (2025-04-22)
 ===
 
