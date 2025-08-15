@@ -1,3 +1,17 @@
+# Release v1.55.8 (2025-07-31)
+
+### SDK Features
+
+* Mark the module and all packages as deprecated.
+  * This SDK has entered end-of-support.
+
+Release v1.55.7 (2025-04-22)
+===
+
+### SDK Bugs
+* `service/s3/s3manager`: Abort multipart download if object is modified during download
+  * Fixes [4986](https://github.com/aws/aws-sdk-go/issues/4986)
+
 Release v1.55.6 (2025-01-15)
 ===
 
